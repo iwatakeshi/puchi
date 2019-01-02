@@ -17,7 +17,7 @@ I'm not sure if that's all useful but it's there anyways :satisfied:. See below 
 * `base`  - The base or radix of the integer string.
 
 ```js
-const { encode } = require('puchi');
+const { encode } = require('puchi')
 
 console.log(encode("5c2bd2c156ddf30c73b39953")) // → n2LiMlrtYMNPIVBj
 ```
@@ -29,7 +29,7 @@ console.log(encode("5c2bd2c156ddf30c73b39953")) // → n2LiMlrtYMNPIVBj
 
 
 ```js
-const { decode } = require('puchi');
+const { decode } = require('puchi')
 
 console.log(decode("n2LiMlrtYMNPIVBj")) // → 5c2bd2c156ddf30c73b39953
 ```
@@ -61,5 +61,5 @@ const range = domain;
 console.log(convert(
   "11010010111000111010110000111100010001011010100111011111",
   2, range.length, null, range))
-  hello world!
+// → hello world!
 ```
