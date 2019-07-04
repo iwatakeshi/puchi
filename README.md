@@ -1,4 +1,7 @@
 # puchi
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/iwatakeshi/puchi.svg)](https://greenkeeper.io/)
+
 A small JavaScript library to encode and decode large integer strings of base `n <= 64` to base 64.
 
 
